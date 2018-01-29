@@ -1,0 +1,30 @@
+{
+  "name": "vue-",
+  "version": "1.0.0",
+  "description": "数据劫持+订阅发布模式",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "devDependencies": {
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huochezaodian/vue-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huochezaodian/vue-/issues"
+  },
+  "homepage": "https://github.com/huochezaodian/vue-#readme"
+}
