@@ -3,10 +3,23 @@
 <head>
 	<meta charset="UTF-8">
 	<title>data-bind</title>
-	<link rel="stylesheet" href="src/css/main.css">
 </head>
 <body>
-	
-<script src="src/js/main.js"></script>
+	<div id="app">
+		<form>
+			<button type="button" name="button" v-on:click="increase">increase:{{number}}</button>
+			<input type="text" v-model="number">
+		</form>
+		<form>
+			<button type="button" name="button" v-on:click="arrIncrease">arrIncrease:{{arr[0]+1}}</button>
+			<input type="text" v-model="arr[0]">
+		</form>
+		<form>
+			<button type="button" name="button" v-on:click="objIncrease">objIncrease:{{obj.key}}</button>
+			<input type="text" v-model="obj.key">
+		</form>
+		sum:<span>{{sum}}</span><br/>
+		<button type="button" name="button" v-on:click="handleShow">{{show ? 'show' : 'hidden'}}</button>
+	</div>
 </body>
 </html>
